@@ -31,7 +31,7 @@ def handler(request):
         check_matches(chat_id)
 
     elif text == "/ayuda":
-        from api.logic import send_message
+        from logic import send_message
         send_message(chat_id,
             "Comandos disponibles:\n"
             "/estado     (estado internet y lecturas)\n"
