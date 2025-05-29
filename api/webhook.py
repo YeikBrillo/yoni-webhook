@@ -1,5 +1,5 @@
 import os
-from api.logic import check_internet, check_meters, check_matches
+from logic import check_internet, check_meters, check_matches
 # Vercel proporciona `request` y espera que devolvamos un dict con statusCode/body
 
 def handler(request):
